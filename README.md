@@ -1,2 +1,2 @@
-# kingfisher.nvim
+# alcedo.nvim
 A minimal colorscheme for Neovim.
