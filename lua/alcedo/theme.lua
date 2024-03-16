@@ -17,12 +17,60 @@ function M.setup(style)
 			fg = colors.fg,
 		},
 
+		String = {
+			link = "Constant",
+		},
+
+		Character = {
+			link = "Constant",
+		},
+
+		Number = {
+			link = "Constant",
+		},
+
+		Boolean = {
+			link = "Constant",
+		},
+
+		Float = {
+			link = "Constant",
+		},
+
 		Identifier = {
 			fg = colors.fg,
 		},
 
+		Function = {
+			link = "Identifier",
+		},
+
 		Statement = {
 			fg = colors.fg,
+		},
+
+		Conditional = {
+			link = "Statement",
+		},
+
+		Repeat = {
+			link = "Statement",
+		},
+
+		Label = {
+			link = "Statement",
+		},
+
+		Operator = {
+			link = "Statement",
+		},
+
+		Keyword = {
+			link = "Statement",
+		},
+
+		Exception = {
+			link = "Statement",
 		},
 
 		PreProc = {
@@ -30,12 +78,60 @@ function M.setup(style)
 			italic = true,
 		},
 
+		Include = {
+			link = "PreProc",
+		},
+
+		Define = {
+			link = "PreProc",
+		},
+
+		Macro = {
+			link = "PreProc",
+		},
+
+		PreCondit = {
+			link = "PreProc",
+		},
+
 		Type = {
 			fg = colors.fg,
 		},
 
+		StorageClass = {
+			link = "Type",
+		},
+
+		Structure = {
+			link = "Type",
+		},
+
+		Typedef = {
+			link = "Type",
+		},
+
 		Special = {
 			fg = colors.fg,
+		},
+
+		SpecialChar = {
+			link = "Special",
+		},
+
+		Tag = {
+			link = "Special",
+		},
+
+		Delimiter = {
+			link = "Special",
+		},
+
+		SpecialComment = {
+			link = "Special",
+		},
+
+		Debug = {
+			link = "Special",
 		},
 
 		Underlined = {
@@ -53,6 +149,19 @@ function M.setup(style)
 
 		Todo = {
 			fg = colors.fg,
+		},
+
+		Added = {
+			fg = colors.fg,
+			undercurl = true,
+		},
+
+		Changed = {
+			link = "Added",
+		},
+
+		Removed = {
+			link = "Added",
 		},
 
 		ColorColumn = {
